@@ -10,8 +10,10 @@ export default function Home({ name }) {
   );
 }
 
-// export async function getServerSideProps(context) {
-//   return {
-//     props: { name: "Dan!" },
-//   };
-// }
+// Remove below and it will work fine!
+
+export async function getServerSideProps(context) {
+  return {
+    props: { name: "Dan!" },
+  };
+}
