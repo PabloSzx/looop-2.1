@@ -10,8 +10,8 @@ export default function Home({ name }) {
   );
 }
 
-export async function getServerSideProps(context) {
-  return {
-    props: { name: "Dan!" },
-  };
-}
+// export async function getServerSideProps(context) {
+//   return {
+//     props: { name: "Dan!" },
+//   };
+// }
